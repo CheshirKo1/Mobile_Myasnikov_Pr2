@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:orientation="vertical">
+
+    <!-- Кнопка, Текст, Поле ввода, картинка -->
+
+    <!-- Картинка -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="Logo"/>
+
+    <!-- Текст -->
+    <TextView
+        android:id="@+id/media_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="32sp"
+        android:textColor="@color/black"
+        android:text="МЕДИАТЕКА"/>
+
+    <!-- Поле ввода -->
+    <EditText
+        android:id="@+id/media_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:inputType="text" />
+
+    <!-- Кнопка -->
+    <Button
+        android:id="@+id/linearButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Войти"
+        android:backgroundTint="#930000"/>
+
+</LinearLayout>
