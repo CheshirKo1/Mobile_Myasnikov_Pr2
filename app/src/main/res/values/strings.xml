@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Mobile_Myasnikov_Pr2</string>
+    <string name="Butt1">Зарегистрироваться</string>
+    <string name="Butt2">Подтвердить</string>
+    <string name="Hint1">Логин</string>
+    <string name="Hint2">Пароль</string>
+    <string name="Project">МЕДИАТЕКА</string>
+
+
+
 </resources>

@@ -9,12 +9,6 @@
 
     <!-- Кнопка, Текст, Поле ввода, картинка -->
 
-    <!-- Картинка -->
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:srcCompat="Logo"/>
 
     <!-- Текст -->
     <TextView
@@ -27,18 +21,33 @@
         android:layout_marginEnd="16dp"
         android:textSize="32sp"
         android:textColor="@color/black"
-        android:text="МЕДИАТЕКА"/>
+        android:text="@string/Project"/>
 
     <!-- Поле ввода -->
     <EditText
-        android:id="@+id/media_title"
+        android:id="@+id/media_title1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="128dp"
         android:layout_marginEnd="16dp"
         android:gravity="center"
-        android:inputType="text" />
+        android:inputType="text"
+        android:hint="@string/Hint1"
+        />
+
+    <!-- Поле ввода -->
+    <EditText
+        android:id="@+id/media_title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:inputType="text"
+        android:hint="@string/Hint2"
+        />
 
     <!-- Кнопка -->
     <Button
@@ -46,7 +55,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Войти"
-        android:backgroundTint="#930000"/>
+        android:text="@string/Butt1"
+        android:backgroundTint="@color/red"/>
+
+    <!-- Картинка -->
+    <ImageView
+        android:layout_marginTop="32dp"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo" />
 
 </LinearLayout>
